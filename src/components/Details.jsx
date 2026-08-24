@@ -1,0 +1,2 @@
+import Reveal from './Reveal';
+export default function Details({w}){return <section className="section details"><Reveal><div className="details-heading"><span className="eyebrow">06 · Важно знать</span><h2>ДЕТАЛИ ДНЯ</h2><p>Небольшие подсказки, чтобы вам было спокойно, красиво и удобно.</p></div><div className="details-grid">{w.details.map((d,i)=><article key={i}><span>0{i+1}</span><h3>{d.title}</h3><p>{d.text}</p></article>)}</div></Reveal></section>}
