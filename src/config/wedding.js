@@ -7,8 +7,8 @@
 */
 export const wedding = {
   couple: {
-    groom: 'Александр',
-    bride: 'Мария'
+    groom: 'Максим',
+    bride: 'Яная'
   },
 
   weddingDate: '2027-06-12T16:00:00',
